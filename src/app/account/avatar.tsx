@@ -56,6 +56,7 @@ export default function Avatar({
 
       onUpload(filePath)
     } catch (error) {
+      console.log(error)
       alert('Error uploading avatar!')
     } finally {
       setUploading(false)
